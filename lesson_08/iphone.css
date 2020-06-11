@@ -1,0 +1,314 @@
+body {
+    font-family: "Encode Sans", sans-serif;
+}
+
+#inside {
+    background: linear-gradient(135deg, #b5bdc0, #ceae95);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.icon1 {
+    color: rgba(252, 255, 239, 0.93);
+    display: inline-block;
+    padding-right: 3px;
+}
+
+.main_icon {
+    width: 100%;
+    background-color: #010105;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.vidsotok {
+    text-align: center;
+    top: 25%;
+    position: relative;
+    font-size: 45px;
+}
+
+
+
+
+
+#welcome {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.button {
+    background-color: #FFFFFF;
+    border: 1px solid #8e8e8e;
+    border-radius: 6px;
+    padding: 20px 30px;
+    width: 75%;
+    margin: 35px auto auto 31px;
+    font-size: 17px;
+}
+
+#loginpage {
+    background-color: #FFFFFF;
+    color: #010105;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.65);
+    height: 30px;
+    margin: -5px 0 0 0;
+    font-size: 19px;
+    display: none;
+}
+
+.fa-chevron-left {
+    color: #2173af;
+}
+
+.fa-chevron-left:hover {
+    color: #174468;
+}
+
+.back {
+    cursor: pointer;
+}
+
+.fa.fa-angle-right {
+    float: right;
+    color: #a2a2a2;
+}
+
+#loginphoto {
+    height: 72px;
+    width: 72px;
+}
+
+#loginheader {
+    margin-top: 55px;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px #ffffff;
+    background-color: transparent;
+    height: 30px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#button {
+    width: 212px;
+    height: 37px;
+    background: #1da5b1;
+    display: none;
+    border: none;
+    border-radius: 4px;
+    margin: 32px auto auto 32px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Muli, sans-serif;
+    text-transform: uppercase;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+i.fa.fa-envelope-o {
+    color: #FFFFFF;
+    margin-right: -26px;
+    position: relative;
+    z-index: 1;
+}
+
+i.fa.fa-envelope-o + #forlogin {
+    padding-left: 26px;
+}
+
+#registration_input {
+    border-bottom: 2px #687188 solid;
+    border-top: 2px #687188 solid;
+    border-left: transparent;
+    border-right: transparent;
+    height: 50px;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: 90%;
+    width: 75%;
+    left: 13%;
+}
+
+#continue {
+    padding: 15px 20px;
+    top: 88%;
+    width: 100%;
+    background-color: #63cdf5;
+    height: 13%;
+    color: #FFF;
+    font-size: 19px;
+    border-top: 2px #5cb4e2 solid;
+    position: absolute;
+    text-align: left;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+#continue > .fa {
+    color: #FFFFFF;
+    font-size: 43px;
+    margin: -11px;
+}
+/*
+.continue > .col-9 {
+    padding: 8px;
+}*/
+/*
+.continue > .right_icon {
+    background-color: #82dbfd;
+    position: relative;
+    height: 100%;
+}*/
+
+i.fa.fa-lock {
+    margin-right: -26px;
+    position: relative;
+    z-index: 1;
+}
+
+
+i.fa.fa-lock + #forpassword {
+    padding-left: 26px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+#main {
+    height: 474px;
+    width: 277px;
+    background-color: #212429;
+    font-family: 'Encode Sans', sans-serif;
+    display: none;
+}
+
+.divforimg {
+    background-color: #272b31;
+    height: 32%;
+    width: 277px;
+    text-align: center;
+    border: 1px solid #31343c;
+}
+
+.circle {
+    border: 2px solid #868a8f;
+    border-radius: 63px;
+    height: 118px;
+    width: 118px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 79px;
+}
+
+.user {
+    border-radius: 49px;
+    height: 90px;
+    width: 90px;
+    margin-top: 25px;
+}
+
+.pes p {
+    color: #FFFFFF;
+    border: 1px solid #31343c;
+    padding: 6px 0 6px 0;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.pes p:hover {
+    color: #2781c8;
+}
+
+.fa-clock-o, .fa-address-card-o, .fa-binoculars, .fa-deaf {
+    padding: 0 11px 0 11px;
+    color: #2781c8;
+}
+
+
+.age, .live, .like, .wish{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -2px;
+}
+
+#exit {
+    width: 100%;
+    background-color: #272b31;
+    font-size: 17px;
+    height: 60px;
+    position: absolute;
+}
+
+#increase {
+    background-color: rgb(35,35,43);
+    position: absolute;
+    border-radius: 6px;
+    width: 100%;
+    height: 96%;
+}
+
+#for_battery {
+    width: 160px;
+    height: 160px;
+    background-color: #dd5152;
+    border-radius: 80px;
+    left: 50%;
+    position: relative;
+    margin-left: -80px;
+    top: 20%;
+    z-index: 2;
+}
+
+.arrow-block {
+    width: 277px;
+    height: 115px;
+    background-color: #f6f6f6;
+    box-shadow: 0 3px 7px #888888;
+}
+
+.arrow-block > p {
+    text-align:  center;
+    font-size: 17px;
+    padding: 4px;
+}
+
+.arrow-block > #phrase {
+    text-transform: uppercase;
+    position: relative;
+    top: 8%;
+    color: #6da0b3;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 13px solid #f6f6f6;
+    margin-left: 130px;
+    margin-top: -2px;
+}
+
+#almost_registration_page {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: rgb(230, 243, 247);
+    top: 4%;
+    position: absolute;
+    width: 100%;
+    left: 6%;
+    color: #010105;
+    height: 30px;
+    font-size: 19px;
+}

@@ -1,0 +1,3 @@
+<?php
+define("NAME_YOUR_DATABASE_RIGHT", "");
+define("WRITE_YOUR_DATABASE_PASSWORD_RIGHT", "");

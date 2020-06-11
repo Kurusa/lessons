@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<p id="para"> </p>
+<p id="time">   </p>
+
+<label>
+    <input id="from">
+</label>
+<button id="button" onclick="displayDividersCount()"> CLICK ME</button>
+
+<script>
+
+    function calculateDividersCount(input) {
+        document.getElementById('para').innerHTML = '';
+        var count = 0;
+        for (var i = 0; i <= input; i++) {
+            if (input % i == 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    function myFunction(input) {
+        var result = "";
+        for (var i = 0; i <= input; i++) {
+            if (calculateDividersCount(i) == 2) {
+                result += i;
+                result += ',';
+                result += ' ';
+            }
+        }
+        return result.substring(0, result.length-2);
+    }
+
+
+
+    function displayDividersCount(){
+        var t0 = new Date();
+        document.getElementById('para').innerHTML = '';
+
+        var userInput = parseInt(document.getElementById('from').value);
+
+        document.getElementById('para').innerHTML = myFunction(userInput) + '';
+
+        var t1 = new Date();
+        document.getElementById('time').innerHTML = ("Call to doSomething took " + (t1 - t0) + " milliseconds.");
+    }
+
+
+    /*
+     * Рахує к-сть дільників параметра input
+     * @param input число, к-сть дільників якого треба порахувати
+     * @returns {number} повертає к-сть дільників параметра input */
+
+    /*
+     * повертає пості числа проміжку від 0 до параметра input ([0..input])
+     *
+     * Наприклад:
+     * <p>
+     * myFunction(5) => "1, 2, 3, 5"
+     * myFunction(10) => "1, 2, 3, 5, 7"
+     * myFunction(1) => "1"
+     * myFunction(20) => "1, 2, 3, 5, 7, 11, 13, 17, 19"
+     *
+     * @param input це права межа проміжку вирахування простих чисел
+     * @returns {string} прості числа проміжку [0..input]. Example myFunction(5) => "1, 2, 3, 5"
+     */
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="shape.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Helvetica:200,300,400,600,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<body style="font-family: Helvetica, sans-serif;">
+
+<p id="mini"></p>
+
+<div class="flex">
+
+    <div class="shape sq"></div>
+
+    <div class="shape ci"></div>
+
+    <div class="shape tr"></div>
+
+</div>
+
+<div id="foo"> Click</div>
+
+<script>
+
+    $('#foo').click(function () {
+        var names = [
+            'green',
+            'red',
+            'blue'
+        ];
+
+        var shapes = [
+            "triangle",
+            "circle",
+            "square"
+        ];
+
+        var color = names[Math.floor(Math.random() * names.length)];
+
+        document.getElementsByClassName('sq')[0].style.backgroundColor = color;
+
+        function compareRandom() {
+
+            return Math.random() - 0.5;
+        }
+
+        names.sort(compareRandom);
+
+        color = names[Math.floor(Math.random() * names.length)];
+
+        document.getElementsByClassName('ci')[0].style.backgroundColor = color;
+
+        color = names[Math.floor(Math.random() * names.length)];
+
+        document.getElementsByClassName('tr')[0].style.borderBottomColor = color;
+
+
+        var shape = shapes[Math.floor(Math.random() * shapes.length)];
+
+        var div = [
+            document.getElementsByClassName('sq')[0],
+            document.getElementsByClassName('ci')[0],
+            document.getElementsByClassName('tr')[0]
+        ];
+
+        var random_div = div[Math.floor(Math.random() * div.length)];
+
+        alert(window.getComputedStyle(random_div).backgroundColor + random_div);
+
+        document.getElementById("mini").innerHTML = "Select " + color + ' ' + shape;
+
+    });
+
+
+</script>
+
+
+</body>

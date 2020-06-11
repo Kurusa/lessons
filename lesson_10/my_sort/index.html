@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+</head>
+<body>
+
+
+<script>
+/*
+    var massive = [4, 7, 8, 2, 4, 7];
+    function sort(massive) {
+
+        var length = massive.length;
+        var k;
+
+        for (var i = 0; i < length - 1; i++) {
+
+            if (massive[i] > massive[i + 1]) {
+
+                k = massive[i];//7
+
+                massive[i] = massive[i + 1]; //7 замінили на наступне число - 2
+
+                massive[i + 1] = k;//на місце старої 2 ставимо 7, яку зберегли. тобішь поміняли місцями числа
+
+                console.log('result' + massive);
+
+                sort(massive);
+            }
+        }
+    }
+
+    sort(massive);
+*/
+
+    //4, 7, !8, 2!, 4, 7
+    //4, 7, 2, !8, 4!, 7
+    //4, 7, 2, 4, !8, 7!
+    //4, 7, 2, 4, 7, !8
+    //------------------
+
+var massive = [4, 7, 8, 2, 4, 7];
+
+function combSort(massive) {
+    //gap = length/1.3
+    //і міняємо число на позиції інтервал з першим
+    //далі інтервал стає попереднім числом, на яке попав інтервал
+    var interval = Math.floor(massive.length/1.3);
+
+    while (interval > 0) {}
+
+}
+
+console.log(combSort(massive));
+</script>
+</body>

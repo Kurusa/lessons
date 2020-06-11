@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Droid+Sans" rel="stylesheet">
+
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="path/to/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite,
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="path/to/default-skin/default-skin.css">
+
+    <!-- Core JS file -->
+    <script src="path/to/photoswipe.min.js"></script>
+
+    <!-- UI JS file -->
+    <script src="path/to/photoswipe-ui-default.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title></title>
+</head>
+<body>
+
+<div class="quote" id="top"> &#8220; They're called miracles because they do happen, even when things seem <br> hopeless. &#8222; </div>
+<div class="author"> — Юічі Айзава</div>
+<!------------->
+<div class="container" style="height: 380px">
+    <div class="row" style="height: 400px">
+        <div class="col-sm-8 about">
+            <p class="up2"> <b> Особистість </b> <p>
+            <p> Він дружелюбний і відкритий, але, незважаючи на це, йому ще доведеться навчитись поводити себе з чутливими дівчатами. Також у нього є хороша риса, яку згадувала Шіорі Місака, - деколи він поводить себе, як старший братик.</p>
+            <p>У дитинстві він вже відвідував місто, у якому відбувають події, але всі спогади про ті часи пропали. Але в залежності від того, як Юічі взаємодіє з людьми, з якими зустрічався в минулому, спогади поступово повертаються. </p>
+        </div>
+        <!-------------->
+        <div class="col-sm-4 table">
+            <div class="name"> Юічі Айзава </div>
+            <img id="clickme" onclick="" src="https://vignette1.wikia.nocookie.net/kanon/images/a/ad/Vlcsnap-2016-10-18-12h51m23s329.png/revision/latest/scale-to-width-down/240?cb=20161018170125" />
+            <img id="showclick" onclick="" style="display: none" src="https://pp.userapi.com/c841632/v841632304/4d1e/qkf678_pAws.jpg"/>
+            <div class="Yuichi"> Головний герой Аніме "Канон" і учень другого класу старшої школи.</div>
+
+            <div class="pers"> <b> Вік </b> 17</div>
+            <div class="pers"> <b>Ріст </b> 173 </div>
+            <div class="pers"> <b>Вага </b> 64 кг</div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $( "#clickme" ).click(function() {
+        $( "#clickme" ).slideToggle("slow");
+        $( "#showclick" ).slideToggle("slow");
+    });
+
+    $( "#showclick" ).click(function() {
+        $( "#showclick" ).slideToggle("slow");
+        $( "#clickme" ).slideToggle("slow");
+    });
+
+</script>
+<!------------------------------------------------------------------------->
+
+<div class="quote2"> &#8220; Uguu &#8222; </div>
+<div class="author2"> — Аю Цукімія</div>
+<!------------->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 about2">
+            <p class="up2"> <b> Особистість </b> <p>
+            <p> Аю низенька, дивна, енергійна і дуже загадкова дівчина, яка кожен раз, бачучи Юічі, буквально врізається (чи, як каже хлопець, "нападає на") в нього. Її легко впізнати по її крилатому рюкзаку, і червоному обручу для волося.
+                Також дівчинка любить поїсти таякі. </p>
+            <p> Аю має дуже дитячий, але милий характер. Акіко-сан, тітка Юічі, описує її як «один великий згусток енергії». Також вона дуже незграбні і полохлива; одне слово "дух" може змусити її закричати.
+                Дівчинка не має уявлення про такі загальні речі як мобільний телефон, тому любить дізнаватися про нові речі.
+                Незважаючи на це, Аю дуже весела і рішуче налаштована знайти предмет, який втратила.</p>
+        </div>
+        <!-------------->
+        <div class="col-sm-4 table2">
+            <div class="name2">  Аю Цукімія </div>
+            <img id="clickme2" src="https://vignette2.wikia.nocookie.net/kanon/images/3/3b/Vlcsnap-2016-10-18-02h49m28s422.png/revision/latest/scale-to-width-down/240?cb=20161018071034"/>
+            <img id="showclick2" style="display: none" src="https://pp.userapi.com/c841632/v841632304/4d45/qRPeJsKwyjA.jpg"/>
+
+            <div class="Ay"> Дівчинка-підліток з дитячою зовнішністю.  Зустрілась з Юічі вперше за останні сім років і допомагає йому пролити світло на втрачену пам'ять.</div>
+
+            <div class="pers"> <b> Вік </b> 17</div>
+            <div class="pers"> <b>Ріст </b> 154 </div>
+            <div class="pers"> <b>Вага </b> 41 кг</div>
+            <div class="pers"> <b>День народження </b> 7 січня</div>
+            <div class="pers"> <b> Об'єми </b> 80-52-79 </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $( "#clickme2" ).click(function() {
+        $( "#clickme2" ).slideToggle("slow");
+        $( "#showclick2" ).slideToggle("slow");
+    });
+
+    $( "#showclick2" ).click(function() {
+        $( "#showclick2" ).slideToggle("slow");
+        $( "#clickme2" ).slideToggle("slow");
+    });
+
+</script>
+<!----------------------------->
+
+<div class="quote2"> &#8220; When spring comes...it would be nice if it would last forever. &#8222; </div>
+<div class="author2"> — Макото Саватарі</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 about2">
+            <p class="up2"> <b> Особистість </b> <p>
+            <p> Макото - молода дівчина, яка напала на Юічі в центрі міста. Вона поселяється в будинку Мінасе в якості гостя і проводить там частину своєї історії. </p>
+            <p>Незважаючи на втрачені спогади, вона пам'ятає своє ім'я і впевнена, що Юічі зробив їй боляче, коли востаннє був у місті. Амнезія виявилася дуже серйозною. Вона сумує, коли господарі викидають своїх тваринок через нездатність піклуватися про них. Тому вона підбирає бездомну кішку, яку Юічі називає Піро. Вона дуже любить Піро і часто носить її на голові. </p>
+            <p> Як і у Аю, у неї є свій вираз: "Ауу", що означає розчарування або смуток. Інша особливість в її розмові - говорить про себе в третій особі. Ближче до кінця історії Макото носить два дзвіночка на зап'ясті і насолоджується звуком, який вони видають.</p>
+        </div>
+        <!------------->
+        <div class="col-sm-4 table3">
+            <div class="name2">  Макото Саватарі </div>
+            <img id="clickme3" src="https://vignette2.wikia.nocookie.net/kanon/images/6/69/Vlcsnap-2016-10-18-04h07m44s996.png/revision/latest/scale-to-width-down/240?cb=20161018081346"/>
+            <img id="showclick3" style="display: none" src="https://pp.userapi.com/c841632/v841632304/4d4c/KkCK4PeP-kg.jpg"/>
+            <div class="Ay"> Дівчинка, яка втратила пам'ять і поселилася в будинку Юічі. Любить пиріжки з м'ясом і апельсини, а також читати мангу. У важких ситуаціях завиває.</div>
+
+            <div class="pers"> <b>Ріст </b> 159 </div>
+            <div class="pers"> <b>Вага </b> 46 кг</div>
+            <div class="pers"> <b>День народження </b> 6 січня</div>
+            <div class="pers"> <b> Об'єми </b> 81-55-79 </div>
+        </div>
+    </div>
+</div>
+
+<p class="bottom"><a href="#top">Наверх</a></p>
+<script>
+    $( "#clickme3" ).click(function() {
+        $( "#clickme3" ).slideToggle("slow");
+        $( "#showclick3" ).slideToggle("slow");
+    });
+
+    $( "#showclick3" ).click(function() {
+        $( "#showclick3" ).slideToggle("slow");
+        $( "#clickme3" ).slideToggle("slow");
+    });
+</script>
+
+</body>
+</html>

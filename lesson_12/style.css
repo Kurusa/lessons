@@ -1,0 +1,58 @@
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.25);
+    left: 50%;
+    top: 5%;
+    margin-left: -216px;
+    color: #650e23cc;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    position: absolute;
+}
+
+body,html {
+    background-image: url("/lesson_12/smoking/smoking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.request {
+    width: 400px;
+    height: 80px;
+    left: 50%;
+    margin-left: -200px;
+    border-radius: 3px;
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    top: 43%;
+    background-color: #000;
+}
+
+.row {
+    padding-top: 30%;
+    color: wheat;
+}
+
+.col-4 {
+    display: inherit;
+    font-size: 30px;
+}
+
+#amount {
+    padding-right: 94px;
+}
+
+.no {
+    background-image: url("https://mdn.mozillademos.org/files/15285/cat.png");
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    left: 15%;
+    font-size: 37px;
+    color: wheat;
+}
+

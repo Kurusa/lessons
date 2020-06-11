@@ -1,0 +1,63 @@
+.header {
+    background: rgba(0, 0, 0, 0) url("https://i.ytimg.com/vi/4mYpWayWLHA/maxresdefault.jpg") no-repeat scroll center center / cover ;
+    height: 950px;
+    text-align: center;
+}
+
+.name {
+    color: #0c060c;
+    font-size: 50px;
+    line-height: 100px;
+    margin-bottom: 70px;
+    margin-top: 0;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.main img {
+    float: left;
+    margin: 50px 80px 50px 0;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer {
+    background: rgba(8, 2, 12, 0.73);
+    font-family: Josefin Slab, sans-serif;
+    font-size: 21px;
+    text-align: right;
+    height: 50px;
+    color: rgba(237, 227, 247, 0.73);
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+.navbar-brand {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+
+.navbar ul li:hover{
+    border-radius: 0;
+    background: #fed136;
+    transition: background 0.5s ease 0s;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%!important;
+}

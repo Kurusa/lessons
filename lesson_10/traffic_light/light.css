@@ -1,0 +1,44 @@
+.main_block {
+    height: 500px;
+    width: 240px;
+    background-color: rgba(22, 22, 22, 0.93);
+    position: relative;
+    left: 50%;
+    margin-left: -120px;
+    border-radius: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    background-color: #000000;
+}
+
+.red.active {
+    background-color: red;
+}
+
+.yellow {
+    background-color: #000000;
+}
+
+.yellow.active {
+    background-color: yellow;
+}
+
+.green {
+    background-color: #000000;
+}
+
+.green.active {
+    background-color: green;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    margin: 50px 0 0 -50px;
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color:  #fdffea;
+}
+
+.header {
+    background-color: #343979;
+}
+
+.title {
+    color: #fdffea;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1cm;
+
+}
+ .event-name {
+     font-weight: bold;
+     font-size: 35px;
+ }
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 27px;
+    border: 1px solid  #fdffea;
+    overflow: hidden;
+}
+
+.general {
+    font-size: 15px;
+}
+
+.price {
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 5px;
+    text-transform: uppercase;
+}
+
+.cost {
+    background-color: #fdffea;
+    height: 90px;
+    border-bottom: 1px solid #7f8480;
+    line-height: 80px;
+}
+
+.number {
+    display: inline-block;
+    margin-left: 600px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.a {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+.button {
+    text-transform: uppercase;
+    background-color: #4a90e2;;
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+    border: 2px solid  #fdffea;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+
+.button:hover {
+    background-color: #4950a9;
+
+}
+
+.event {
+    color: #585653;
+    font-family: "Roboto", sans-serif;
+    background-color: #fdffea;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.link {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    background-color: #fdffea;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tag {
+    color: #9ba292;
+    text-decoration: none;
+}
+
+.tag:hover {
+    text-decoration: underline;
+}

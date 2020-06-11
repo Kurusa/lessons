@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="style.css?3" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+<div id="choice" class="container" style="display: none;">
+    <div class="row">
+        <div class="col-sm-3" id="addition">
+            A<br>
+            D<br>
+            D<br>
+            I<br>
+            T<br>
+            I<br>
+            O<br>
+            N<br>
+        </div>
+
+        <div class="col-sm-3" id="subtraction">
+            S<br>
+            U<br>
+            B<br>
+            T<br>
+            R<br>
+            A<br>
+            C<br>
+            T<br>
+            I<br>
+            O<br>
+            N<br>
+        </div>
+
+        <div class="col-sm-3" id="division">
+            D<BR>
+            I<BR>
+            V<BR>
+            I<BR>
+            S<BR>
+            I<BR>
+            O<BR>
+            N<BR>
+        </div>
+
+        <div class="col-sm-3" id="multiplication">
+            M<br>
+            U<br>
+            L<br>
+            T<br>
+            I<br>
+            P<br>
+            L<br>
+            I<br>
+            C<br>
+            A<br>
+            T<br>
+            I<br>
+            O<br>
+            N<br>
+        </div>
+    </div>
+</div>
+
+<div class="top container ready">
+    Ready?
+</div>
+
+
+<p class="numbers" style="display: none"> 3 </p>
+
+<p id="suggestRightAnswer" class="right_answer" style="display: none;"></p>
+
+<p id="timerAddition" class="timer" onclick="suggestRightAnswerAddition()" style="display: none;cursor: pointer"></p>
+
+<p id="timerSubtraction" class="timer" onclick="suggestRightAnswerSubtraction()" style="display: none;cursor: pointer"></p>
+
+<p id="timerDivision" class="timer" onclick="suggestRightAnswerDivision()" style="display: none;cursor: pointer"></p>
+
+<p id="timerMultiplication" class="timer" onclick="suggestRightAnswerMultiplication()" style="display: none ;cursor: pointer"></p>
+
+
+<!--
+<button style="font-size: 30px" onclick="timer()"> Speed up </button>
+-->
+
+<p id="example" class="example" style="display: none;"></p>
+
+<script src="index.js"></script>
+
+</body>
+
+

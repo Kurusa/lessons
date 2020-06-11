@@ -1,0 +1,72 @@
+body {
+    background: url("/lesson_10/math_game/car_and_road/car_and_road.jpg") no-repeat scroll center center/cover;
+    background-position-y: -500px;
+}
+
+@media all and (max-device-width: 800px) {
+    body {
+        background-position-y: -200px;
+    }
+}
+
+
+.top {
+    text-align: center !important;
+    position: relative;
+    margin-top: 15%;
+    border: none;
+    font-size: 86px;
+    font-family: 'Bungee Shade', cursive;
+    cursor: pointer;
+    color: #000000;
+}
+
+#choice {
+    width: 950px;
+    position: relative;
+    margin-left: 50%;
+    right: 475px;
+    color: white;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: 600;
+    word-break: break-all;
+}
+
+.col-sm-3 {
+    background-color: #25252580;
+    border: 1px #515251 solid;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    height: 545px;
+    padding-top: 20px;
+}
+
+.col-sm-3:hover {
+    background-color: #1e1f1fb3;
+}
+
+.numbers {
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    top: 135px;
+    font-family: 'Bungee Hairline', cursive;
+    color: black;
+    font-weight: 600;
+}
+
+*, *:after, *::before {
+    box-sizing: border-box;
+}
+
+.timer, .example, .right_answer {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: 600;
+}
+
+.timer {
+    font-size: 60px !important;
+}

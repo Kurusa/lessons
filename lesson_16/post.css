@@ -1,0 +1,168 @@
+body {
+    font-family: Muli, sans-serif;
+ /*   background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.container {
+    background-color: #ffffff;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    border-bottom: 6px #f5f4f2 solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 16px;
+    margin: 26px;
+}
+
+textarea {
+    padding: 4px 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Muli, sans-serif;
+    min-height: 160px;
+}
+
+.col-sm-4 {
+    border-left: 5px #f5f4f2 solid;
+}
+
+span {
+    font-size: 25px;
+}
+
+input {
+    border-top: transparent;
+    border-bottom: 2px rgb(202, 229, 248) solid;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.button {
+    border-radius: 0;
+    border: transparent;
+    background-color: rgb(202, 229, 248);
+}
+
+#comment_block {
+    margin-top: 20px;
+}
+
+
+.comment {
+    width: 100%;
+    display: inline-flex;
+    font-size: 19px;
+    border: 1px black solid;
+    position: relative;
+    padding: 20px;
+    border-radius: 4px;
+    word-break: break-all;
+}
+
+#no {
+    font-size: 21px;
+    padding: 5px;
+    background-color: #f006;
+    border-left: 2px black solid;
+}
+
+.checked {
+    display: inline;
+    vertical-align: middle;
+}
+
+.checked > input > span {
+    vertical-align: middle;
+}
+
+
+#exit, #global, #films {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+    border: none;
+}
+
+#exit:hover, #global:hover, #exit:active, #global:active, #films:hover, #films:active {
+    background: rgb(202, 229, 248);
+    color: black;
+    text-decoration: none !important;
+}
+
+.fa-pencil {
+    float: right;
+}
+
+.icons {
+    margin: 0 1px;
+    opacity: 0.9;
+    background: transparent;
+    border: none;
+}
+
+.delete, .edit {
+    border: none;
+    background: transparent;
+}
+
+.hrefs {
+    position: relative;
+    display: inline-flex;
+    float: right;
+}
+
+#edit, #delete {
+    font-size: large;
+}
+
+a{
+    color: #000000!important;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.for_film {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+
+.movie_pic {
+    display: inline-flex;
+}
+
+.movie_name {
+    margin: 0 10px;
+    font-size: 27px;
+    text-transform: capitalize;
+}

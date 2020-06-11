@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Muli|Catamaran" rel="stylesheet">
+    <link href="style.css?3" type="text/css" rel="stylesheet"/>
+    <script src="https://use.fontawesome.com/8aa4ff900d.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title> String</title>
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top" style="background-color: transparent" role="navigation">
+    <div class="container" style="background-color: #010105;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Main page</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" class="first"> Amount of symbols </a>
+                </li>
+                <li>
+                    <a href="#" class="second"> Uppercase </a>
+                </li>
+                <li>
+                    <a href="#" class="third"> Lowercase </a>
+                </li>
+
+                <li>
+                    <a href="#" class="fourth"> Таблица умножения </a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<iframe id="table" src="/lesson_15/index.php" style="display: none"> </iframe>
+
+<div>
+    <div id="hello" class="jumbotron jumbotron-fluid">
+        <div class="inside"> Welcome To Bipa`s Page! </div>
+        <div class="intr"> it's nice to meet you </div>
+        <div style="text-align: center"> <a href="#" class="learn" id="learn" onclick=""> Learn more </a> </div>
+    </div>
+</div>
+
+<div class="container" id="container" style="display: none;">
+        <div class="col-lg-4 col-md-6 text-center">
+            <img class="img" src="https://68.media.tumblr.com/avatar_6bff0f76acb3_128.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Amount of symbols</h2>
+            <p>Собеседник пишет Вам overмного восклицательный или воскрецательных знаков, или же Вы просто хотите кого-то потролить? Вам сюда! Здесь можно без усилий узнать количество введенных знаков. </p>
+            <p>
+                <a class="btn btn-secondary" id="amount" href="#" role="button">View more</a>
+            </p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 text-center">
+            <img class="img" src="http://yttalk.com/data/avatars/m/41/41114.jpg?1479579449" alt="Generic placeholder image" width="140" height="140">
+            <h2>Uppercase</h2>
+            <p style="text-transform: uppercase">хотите накричать на кого-то, но ваш спиногрыз/собака/вы съели кнопку caps lock? не беда! этот чудо-код вам поможет.</p>
+            <p>
+                <a class="btn btn-secondary" id="upper" href="#" role="button">View more</a>
+            </p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 text-center">
+            <img class="img" src="https://i.ytimg.com/vi/1jhO-tZ5xqU/hqdefault.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Lowercase</h2>
+            <p>у вас большие проблемы? решение есть - вы знаете что надо делать.</p>
+            <p>
+                <a class="btn btn-secondary" id="lower" href="#" role="button" onclick="">View more</a>
+            </p>
+        </div>
+    </div>
+
+<div class="container main" style="display: none">
+<div class="row" id="row">
+    <div class="col-lg-4 col-md-3 my-auto" >
+        <textarea placeholder="Remember, be nice!" id="data" cols="30" rows="5" class="col-md-3"
+                  onkeyup="countChars('data','count', 'data', 'commas');" onkeydown="countChars('data','count', 'data', 'commas');" onmouseout="countChars('data','count', 'data', 'commas');" onchange="countChars('data','count', 'data', 'commas');"></textarea><br>
+    <img class="iphone" src="/lesson_06/img/phone.png">
+     </div>
+
+
+    <div class="col-lg-8 my-auto">
+            <div class="row" style="padding-top: 150px;">
+                <div class="col-lg-6">
+                    <div class="feature-item">
+                        <i class="fa fa-mobile"></i>
+                       <div class="h3"> Amount of symbols </div>
+                            <span id="count" class="col-lg-2 col-md-6 col-xs-1">0</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="feature-item">
+                        <i class="fa fa-mobile"></i>
+                        <div class="h3"> Amount of commas </div>
+                        <span id="commas" class="col-lg-2 col-md-6 col-xs-1">0</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+        </div>
+</div>
+
+<div class="container main2" style="display: none">
+    <div class="row" id="row2">
+        <div class="col-lg-6 my-auto" style="margin-top: 30px">
+            <textarea id="data2" disabled>  </textarea>
+            <textarea placeholder="Ввод здесь" id="data3" onkeyup="myUpper();" onkeydown="myUpper();" onchange="myUpper();" onclick="myUpper()">  </textarea>
+            <img class="tablet" src="/lesson_06/img2/1600.png">
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(".navbar-brand").click(function () {
+        $("#hello").show();
+        $("#container").show();
+        $(".main").css('display', 'none');
+    });
+
+    $(".first").click(function () {
+        $("#hello").css("display", "none");
+        $("#container").css("display", "none");
+        $(".main2").css("display", "none");
+        $(".main").show();
+    });
+
+    $(".second").click(function () {
+        $("#hello").css("display", "none");
+        $("#container").css("display", "none");
+        $(".main").css("display", "none");
+        $(".main2").show();
+    });
+
+    $(".fourth").click(function () {
+        $("#hello").css("display", "none");
+        $("#container").css("display", "none");
+        $(".main").css("display", "none");
+        $("#table").show();
+    });
+
+    $("#amount").click(function () {
+        $("#hello").css("display", "none");
+        $("#container").css("display", "none");
+        $(".main").show();
+    });
+
+        $( "#learn" ).click(function() {
+            $( "#container" ).slideToggle( "slow" );
+        });
+
+        $("#lower").click(function () {
+            $("#hello").css("display", "none");
+            $("#container").css("display", "none");
+        });
+
+        $("#upper").click(function () {
+            $("#hello").css("display", "none");
+            $("#container").css("display", "none");
+            $(".main2").show();
+        });
+
+
+        function countChars(countfrom,displayto) {
+            var len = document.getElementById(countfrom).value.length;
+            document.getElementById(displayto).innerHTML = len;
+            var text = document.getElementById('data').value;
+            var res = text.match(/,/ig);
+            document.getElementById('commas').innerHTML = res.length;
+        }
+
+function myUpper() {
+    document.getElementById('data2').value = document.getElementById('data3').value.toUpperCase();
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>

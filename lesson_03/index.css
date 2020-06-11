@@ -1,0 +1,125 @@
+.element {
+    background-color: rgba(255, 255, 255, 0.71);
+    width: 800px;
+    height: 1375px;
+    border: 10px solid #3b4d80;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+h4 {
+ font-style: italic;
+    color: #3b4d80;
+    font-size: 25px;
+  margin-top: 0;
+}
+
+h1 {
+    color: #3b4d80;
+}
+
+.left {
+    padding: 30px;
+    width: 420px;
+}
+
+.text1, .text2 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text2 {
+    padding-top: 20px;
+}
+
+.btn {
+    color: #0c060c;
+}
+
+.glyphicon {
+    padding-top: 18px;
+    color: #3b4d80;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.IT {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .right {
+    width: 330px;
+    background-color:rgba(114, 151, 165, 0.23);
+    position: relative;
+     left: 470px;
+     bottom: 1035px;
+     height: 1378px;
+}
+
+
+.img {
+    width: 300px;
+    border-radius: 100%;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.chat {
+    color: #2173af;
+    font-family: 'PT Sans', sans-serif;
+    height: 300px;
+    border: solid 2px rgb(113, 107, 83);
+    font-size: 24px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.aboutchat {
+    font-size: 15px;
+    max-width: 300px;
+    position: absolute;
+    left: 101px;
+    top: 880px;
+}
+
+.imgchat {
+    padding-left: 91px;
+}
+
+.servis {
+    font-family: 'PT Sans', sans-serif;
+    height: 365px;
+    border: solid 2px rgb(113, 107, 83);
+    font-size: 24px;
+    position: absolute;
+    bottom: -397px;
+    border-radius: 10px;
+    width: 415px;
+    right: -58px;
+}
+
+.aboutservis {
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.cando {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.tolist {
+    padding-left: 40px;
+}

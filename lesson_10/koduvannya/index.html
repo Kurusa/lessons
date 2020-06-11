@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<textarea id="in" style="height: 200px; width: 400px"></textarea>
+
+<hr>
+
+<p id="out_code"></p>
+
+
+<textarea id="in_contrary" placeholder="contrary"> </textarea>
+
+<hr>
+
+<p id="contrary_code" style="height: 200px; width: 400px"></p>
+
+
+<script>
+
+    document.getElementById('in').oninput = function () {
+
+        //сдвиг
+        var offset = 3;
+
+        //стринг, который нужно преобразить в зашифрованный код
+        var string = this.value;
+
+        //зашифрованный код
+        var out_code = '';
+
+        //проходимся по стрингу
+        for (var i = 0; i < string.length; i++) {
+
+            //получаем код каждого символа
+            //к этому коду добавляем сдвиг (3)
+            //код каждого символа преобразовываем в символ
+            out_code += String.fromCharCode(string.charCodeAt(i) + offset);
+        }
+
+        document.getElementById('out_code').innerHTML = out_code;
+    };
+
+
+    document.getElementById('in_contrary').oninput = function () {
+
+        //сдвиг
+        var offset = 3;
+
+        //стринг, который надо расшифровать
+        var string = this.value;
+
+        var out_code = '';
+
+        for (var i = 0; i < string.length; i++) {
+
+            //код каждого символа преобразовываем в символ
+            out_code += String.fromCharCode(string.charCodeAt(i) - offset);
+        }
+
+        document.getElementById('contrary_code').innerHTML = out_code;
+
+    };
+
+
+</script>
+
+
+</body>
+</html>

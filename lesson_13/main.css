@@ -1,0 +1,86 @@
+
+
+body,html {
+    background-image: url("/lesson_13/headerimg/manual.jpg") ;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    height:100%;
+}
+
+body {
+    line-height: 32px!important;
+}
+
+
+.back_name {
+    width: 100%;
+    height: 140px;
+    position: relative;
+    background-color: #00000080;
+    top: 13%;
+}
+
+.for_name {
+    width: 490px;
+    height: 250px;
+    background-color: #3fb9e2;
+    position: absolute;
+    left: 50%;
+    margin-left: -245px;
+    padding: 20px 60px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.14);
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.brain_fuck {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.manual {
+    font-size: 27px;
+}
+
+.ask_button {
+    border: 2px solid #FFFFFF;
+    margin: 21%;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.ask_button:hover {
+    background: #fff;
+    color: #1a8fb7;
+}
+
+.php {
+    position: absolute;
+    line-height: 60px;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+    left: 50%;
+    margin-left: -226px;
+    font-size: 31px;
+    padding-top: 26px;
+}
+
+.phpnet {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.phpnet:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.input {
+    padding: 10px;
+    font-size: 17px;
+    margin: 35px;
+}

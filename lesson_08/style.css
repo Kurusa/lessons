@@ -1,0 +1,74 @@
+body {
+    background: rgba(0, 0, 0, 0) url("http://www.andreagalanti.it/flatfy/img/intro/intro5.jpg") no-repeat scroll center center/cover;
+    height: 100%;
+}
+
+#top_words {
+    font-family: 'Encode Sans', sans-serif;
+    text-align: center;
+    margin: 40px auto 45px auto;
+}
+
+#hello {
+    text-transform: uppercase;
+    color: #4bdfa5;
+    font-size: 70px;
+}
+
+#under {
+    color: #f5f8e9;
+    font-size: 28px;
+}
+
+iframe {
+    top: 313px;
+    left: 50%;
+    margin-left: -138px;
+    position: absolute;
+    width: 277px;
+    height: 474px;
+    border: none;
+    color: transparent;
+}
+
+#iphone {
+    height: 629px;
+    width: 312px;
+}
+
+body {
+    background: rgba(0, 0, 0, 0) url("http://www.andreagalanti.it/flatfy/img/intro/intro5.jpg") no-repeat scroll center center/cover;
+    height: 100%;
+}
+
+#main {
+    font-family: 'Encode Sans', sans-serif;
+    text-align: center;
+    margin: 40px auto 45px auto;
+}
+
+
+#hello {
+    text-transform: uppercase;
+    color: #4bdfa5;
+    font-size: 70px;
+}
+
+#under {
+    color: #f5f8e9;
+    font-size: 28px;
+}
+
+iframe {
+    top: 312px;
+    left: 50%;
+    margin-left: -138px;
+    position: absolute;
+    width: 277px;
+    height: 474px;
+}
+
+#iphone {
+    height: 629px;
+    width: 312px;
+}

@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#headerwrap {
+    background: url(../img/back.jpg) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 250px;
+    text-align: center;
+/ / background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+#headerwrap h1 {
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#headerwrap h4 {
+    font-weight: 400;
+    color: #ffffff
+}
+
+.centered {
+    text-align: center
+}
+
+.mt {
+    margin-top: 80px;
+}
+
+.mb {
+    margin-bottom: 80px;
+}
+
+/* Gallery */
+.gallery {
+    margin-top: 30px;
+}
+/*
+.gallery:hover {
+    width: 400px;
+}*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-cta {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+    font-family: 'Ruda', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.btn-cta:hover {
+    color: black;
+    background-color: white;
+}
+
+.paste {
+    color: #ffffff;
+    font-family: 'Ruda', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.selectedImage {
+    border: 5px solid;
+    width: 400px;
+}

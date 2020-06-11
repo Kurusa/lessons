@@ -1,0 +1,103 @@
+body {
+    background-image: url("https://www.nuxeo.com/assets/imgs/backgrounds/background-products-default.jpg");
+}
+
+.come {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 41px;
+    color: #ede3f7;
+    text-align: center;
+}
+
+.comein {
+    background-color: rgba(239, 239, 239, 0.87);
+    border: solid #101e23 6px;
+    height: 135px;
+    width: 560px;
+    margin-left: 660px;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+
+.intr {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(231, 220, 241, 0.93);
+    background-color: rgba(21, 43, 50, 0.90);
+    height: 58px;
+    margin-bottom: 18px;
+}
+
+.else {
+    display: none;
+    border: solid #101e23 6px;
+    background-color: rgba(239, 239, 239, 0.87);
+    width: 560px;
+    border-radius: 6px;
+    margin-left: 660px;
+    margin-top: 40px;
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.zhecky, .notcat {
+font-size: 24px;
+    margin: 0 -50px 0 120px;
+}
+
+.name {
+    text-align: center;
+    font-size: 31px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(231, 220, 241, 0.93);
+    background-color: rgba(24, 57, 65, 0.90);
+    height: 56px;
+    display: none;
+}
+
+#name {
+    display: none;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(3, 10, 74, 0.55);
+    font-size: 22px;
+}
+
+#email {
+    display: none;
+    width: 300px;
+    height: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#password {
+    display: none;
+    width: 265px;
+    height: 20px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+#button {
+    display: none;
+    font-size: 20px;
+    margin: 85px 0 30px 140px;
+}
+
+#false {
+    display: none;
+    font-size: 40px;
+    background-color: #117bff;
+    height: 300px;
+    width: 300px;
+}
+
+.close {
+    display: none;
+}
+

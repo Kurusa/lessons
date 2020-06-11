@@ -1,0 +1,231 @@
+
+.top_sentence {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 7%;
+    background-color: transparent;
+}
+
+.zero {
+    background:url(/lesson_16/images/0.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.first{
+    background:url(/lesson_16/images/1.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.second{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background:url(/lesson_16/images/2.jpg) center top;
+    /*black*/
+}
+
+.third{
+    background:url(/lesson_16/images/3.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.fourth{
+    background:url(/lesson_16/images/4.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.five{
+    background:url(/lesson_16/images/5.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.six{
+    background:url(/lesson_16/images/6.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.seven{
+    background:url(/lesson_16/images/7.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.eight{
+    background:url(/lesson_16/images/8.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.nine{
+    background:url(/lesson_16/images/9.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.ten{
+    background:url(/lesson_16/images/10.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.eleven{
+    background:url(/lesson_16/images/11.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.twelve{
+    background:url(/lesson_16/images/12.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.thirteen{
+    background:url(/lesson_16/images/13.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.fourteen{
+    background:url(/lesson_16/images/14.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.fifteen{
+    background:url(/lesson_16/images/15.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.sixteen{
+    background:url(/lesson_16/images/16.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.seventeen{
+    background:url(/lesson_16/images/17.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.eighteen{
+    background:url(/lesson_16/images/19.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.nineteen{
+    background:url(/lesson_16/images/19.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.twenty{
+    background:url(/lesson_16/images/20.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.twenty-one{
+    background:url(/lesson_16/images/21.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.twenty-two{
+    background:url(/lesson_16/images/22.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.twenty-three{
+    background:url(/lesson_16/images/23.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.twenty-four{
+    background:url(/lesson_16/images/24.jpg) center top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#main {
+    position: absolute;
+}
+
+.black {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+
+::-moz-placeholder {
+    color: black;
+    font-size: 22px;
+    opacity: 0.4;
+}
+
+.row > .col-sm-4, .row > .col-sm-5  {
+    background-color: rgba(0, 0, 0, 0.59);
+    border: 2px black solid;
+    padding: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    background: #ffffff;
+    border-radius: 0;
+    border-left: 4px #42a56c solid;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    margin-bottom: 30px;
+    padding: 7px 5px;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+
+    background-color: #42a56c;
+    color: black;
+}
+
+.col-sm-5 > p, .col-sm-4 > p {
+    color: white;
+    font-size: 30px;
+}
+
+.taken_name {
+    display: inline-block;
+    color: white;
+    background-color: #aa2c2c99;
+    padding: 6px;
+    margin: -11px auto 20px auto;
+    font-size: 19px;
+}
+
+
+/*
+
+*/

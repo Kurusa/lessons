@@ -1,0 +1,181 @@
+/*
+body {
+    */
+/*background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/a35ad921324953.562ff4839f263.png");*//*
+
+    font-family: Muli, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("https://wallpaperlayer.com/img/2015/7/dark-geometric-wallpaper-761-845-hd-wallpapers.jpg");
+}
+
+.name {
+    font-size: 87px;
+    padding-left: 155px;
+    font-family: Muli, sans-serif;
+    font-weight: 700;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 14%;
+    top: 23%;
+}
+
+.under {
+    text-transform: uppercase;
+    font-family: Muli, sans-serif;
+    font-weight: 100;
+    padding-left: 77px;
+}
+
+.col-sm-3 > .button {
+    color: white;
+    font-family: Muli, sans-serif;
+    font-size: 26px;
+    margin-top: 53px;
+    background-color: #49f494;
+    text-align: center;
+    border-radius: 29px;
+    padding: 11px;
+    width: 345px;
+}
+
+.for_registration {
+    background-color: rgba(0, 0, 0, 0.59);
+    color: #ffffff;
+}
+
+span {
+    font-weight: bold;
+}
+
+.check {
+    display: block;
+}*/
+
+#header {
+    padding: 210px 0;
+    background: url("http://divtable.com/images/banner.jpg") center center;
+    background-size: cover;
+}
+
+#logo {
+    height: 80px;
+    text-align: center;
+}
+
+#logo > p {
+    font-size: 70px;
+    padding-left: 250px;
+}
+
+#nav {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-2 {
+    margin-top: -7%;
+    text-align: center;
+    display: inline-flex;
+    float: right;
+    position: relative;
+    right: 6%;
+}
+
+#nav-2 > ul {
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px 1px rgba(255,255,255,0.25);
+    padding: 0 1.5em;
+    list-style: none;
+    color: #ffffff;
+}
+
+#nav > ul {
+    display: inline-flex;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px 1px rgba(255,255,255,0.25);
+    padding: 0 1.5em;
+    list-style: none;
+    color: #ffffff;
+}
+
+li {
+    padding: 5px 12px;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.wrapper.style1 {
+    background: #e97770;
+}
+
+.wrapper {
+    padding: 4em 0 9em;
+    position: relative;
+}
+
+.wrapper.style1 .title {
+    background: #e97770;
+    color: #fff;
+}
+
+.wrapper .title {
+    width: 25em;
+    height: 3.25em;
+    top: -3.25em;
+    line-height: 3.25em;
+    margin-bottom: -3.25em;
+    margin-left: -12.5em;
+    padding-top: .5em;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .25em;
+}
+
+.wrapper .title::before {
+    content: '';
+    position: absolute;
+    bottom: -38px;
+    left: -35px;
+    width: 35px;
+    height: 38px;
+    background: url(http://divtable.com/assets/css/images/shadow.png);
+}
+
+.wrapper .title::after {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    content: '';
+    position: absolute;
+    bottom: -38px;
+    right: -35px;
+    width: 35px;
+    height: 38px;
+    background: url(http://divtable.com/assets/css/images/shadow.png);
+}
+
+span {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+

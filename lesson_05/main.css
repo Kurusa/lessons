@@ -1,0 +1,156 @@
+
+.border {
+    width: 1898px;
+    height: 2130px;
+    border: solid #be6e48 6px;
+    margin: -8px 0 auto -8px;
+    background-image: url("https://pp.userapi.com/c841632/v841632666/7207/l0xzmuPQgiM.jpg");
+}
+
+.neardonut {
+    font-family: "Avenir LT W01_95 Black",​ sans-serif;
+    font-size: 1.4em;
+    margin: 30px auto auto 165px;
+    width: 775px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.donut {
+    margin: -177px auto auto 20px;
+}
+
+.under {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.top {
+    background-color: rgba(0, 0, 0, 0.94);
+    height: 150px;
+    width: 1898px;
+}
+.nearcat {
+    font-size: 5.5em;
+    letter-spacing: 25px;
+    color: #be6e48;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+
+.cat {
+    height: 126px;
+    width: 126px;
+    float: right;
+    margin: -115px 300px auto auto;
+}
+
+.neardonut2 {
+    float: right;
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 23px;
+    margin: 50px auto auto 20px;
+    width: 775px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.neardonut3 {
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 23px;
+    margin: 230px auto auto 20px;
+    width: 775px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.neardonut4 {
+    float: right;
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 23px;
+    margin: 220px auto auto 20px;
+    width: 775px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.neardonut5 {
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 23px;
+    margin: 480px auto auto 20px;
+    width: 775px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.neardonut6 {
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 23px;
+    margin: 480px auto auto 20px;
+    width: 650px;
+    line-height: 1.5;
+    color: #222;
+}
+
+#first {
+    width: 281px;
+    float: right;
+    margin: 155px -795px auto auto;
+    display: none;
+}
+
+#hidden {
+    background-color: #c9c0d2;
+    float: right;
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 20px;
+    margin: 120px -798px auto 20px;
+    color: #222;
+    width: 280px;
+    border: solid #be6e48 2px;
+    border-radius: 3px;
+    height: 55px;
+}
+
+#second {
+    display: none;
+    width: 284px;
+    height: 195px;
+    overflow: hidden;
+}
+#hidden2 {
+    background-color: #c9c0d2;
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 20px;
+    color: #222;
+    width: 280px;
+    border: solid #be6e48 2px;
+    border-radius: 3px;
+    height: 55px;
+}
+
+#third {
+    float: right;
+    margin: 122px -322px auto auto;
+    width: 322px;
+    display: none;
+}
+
+#hidden3 {
+    background-color: #c9c0d2;
+    float: right;
+    font-family: 'Avenir LT W01_65 Medium', sans-serif;
+    font-size: 20px;
+    color: #222;
+    width: 320px;
+    border: solid #be6e48 2px;
+    border-radius: 3px;
+    height: 75px;
+    margin-right: -2px;
+    margin-top: 45px;
+}

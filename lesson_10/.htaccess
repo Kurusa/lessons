@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile  /home/kurusa/web/kurusa.zhecky.net/public_html/lesson_10/.htpasswd
+Require valid-user

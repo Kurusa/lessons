@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.sq {
+    width: 120px;
+    height: 120px;
+    /*
+        background: red;
+    */
+}
+
+.ci {
+    width: 120px;
+    height: 120px;
+    /*
+        background: red;*/
+    border-radius: 60px;
+}
+
+.tr {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid;
+}
+
+.shape {
+    margin-bottom: 10px;
+}
+
+

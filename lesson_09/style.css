@@ -1,0 +1,72 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#presentation, #homework, #referat {
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    background-color: #fcfbf9;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#essay, #translation, #course {
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    background-color: #fcfbf9;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#top {
+    margin-top: -271px;
+    margin-left: 950px;
+}
+
+#bottom {
+    margin-top: 4px;
+    margin-left: 950px;
+}
+
+img {
+    padding-top: 15px;
+    width: 73px;
+}
+
+.green {
+    width: 80%;
+    background-color: #a1c678;
+    margin-left: 19px;
+    border-radius: 2px;
+    height: 32px;
+}
+
+.green > div {
+    margin: 20px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.main {
+    width: 326px;
+    border-radius: 2px;
+    padding: 5px 11px 7px 10px;
+    background: rgba(19, 19, 19, 0.65);
+    margin: 7px 0;
+    color: #FFFFFF;
+}
+
+.mainhelp {
+    background-color: #b9e08c;
+    display: inline-block;
+}
+
+.help {
+    margin: 32px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 42px;
+    color: #fff;
+}

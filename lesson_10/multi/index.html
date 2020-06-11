@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+
+<div id="require-questionnaire">
+    <div class="questionnaire">
+
+        <h3 id="question">Скільки простору маєте?</h3>
+
+        <h3 id="result"></h3>
+
+        <div id="answer">
+            <button class="option" onclick="answer(2)">Чимало</button>
+            <button class="option" onclick="answer(3)">Трохи маю</button>
+            <button class="option" onclick="answer(4)">можу виділити лише куток в квартирі</button>
+        </div>
+    </div>
+</div>
+
+<script>
+
+var data = [
+    {
+        id: 1,
+        question: "Скільки простору маєте?",
+        options: [
+            {
+                userPick: "Чимало",
+                moveTo: 2
+            },
+            {
+                userPick: "Трохи маю",
+                moveTo: 3
+            },
+            {
+                userPick: "можу виділити лише куток у квартирі",
+                moveTo: 4
+            }
+        ]
+    },
+
+    {
+        id: 2,
+        question: "Яку користь хочете мати?",
+        options: [
+            {
+                userPick: "Пересування",
+                moveTo: 5
+            },
+            {
+                userPick: "Яйця",
+                moveTo: 6
+            },
+            {
+                userPick: "Молоко",
+                moveTo: 7
+            }
+        ]
+    },
+
+    {
+        id: 3,
+        question: "Шерсть потрібна?",
+        options: [
+            {
+                userPick: "Так",
+                moveTo: 16
+            },
+            {
+                userPick: "Ні",
+                moveTo: 8
+            }
+        ]
+    },
+
+    {
+        id: 4,
+        question: "Має бути з вухами?",
+        options: [
+            {
+                userPick: "Так",
+                moveTo: 10
+            },
+            {
+                userPick: "Ніяких вух",
+                moveTo: 9
+            }
+        ]
+    },
+
+    {
+        id: 5,
+        result: "Без вагань купуйте коня"
+    },
+
+    {
+        id: 6,
+        question: "Має хоть трохи літати?",
+        options: [
+            {
+                userPick: "Так",
+                moveTo: 12
+            },
+            {
+                userPick: "Ніяких літати",
+                moveTo: 8
+            }
+        ]
+    },
+
+    {
+        id: 7,
+        question: "Хочете мати можливість задіяти в ролику про шоколаду Milka?",
+        options: [
+            {
+                userPick: "Ні",
+                moveTo: 14
+            },
+            {
+                userPick: "Було б непогано",
+                moveTo: 13
+            }
+        ]
+    },
+    {
+        id: 8,
+        question: "Нічого що трошки агресивний?",
+        options: [
+            {
+                userPick: "Підійде",
+                moveTo: 18
+            },
+            {
+                userPick: "Не підійде",
+                moveTo: 17
+            }
+        ]
+    },
+    {
+        id: 9,
+        question: "Як щодо птиці?",
+        options: [
+            {
+                userPick: "Так",
+                moveTo: 6
+            },
+            {
+                userPick: "Не впевнений",
+                moveTo: 11
+            }
+        ]
+    },
+    {
+        id: 10,
+        result: "Без вагань купуйте кролика"
+    },
+    {
+        id: 11,
+        result: "Без вагань купуйте бджіл"
+    },
+    {
+        id: 12,
+        result: "Без вагань купуйте курку"
+    },
+    {
+        id: 13,
+        result: "Без вагань купуйте корову"
+    },
+    {
+        id: 14,
+        question: "Сусідів рогаті тварини не бентежать?",
+        options: [
+            {
+                userPick: "Все ок",
+                moveTo: 15
+            },
+            {
+                userPick: "Бентежать",
+                moveTo: 16
+            }
+        ]
+    },
+    {
+        id: 15,
+        result: "Без вагань купуйте козу"
+    },
+    {
+        id: 16,
+        result: "Без вагань купуйте вівцю"
+    },
+    {
+        id: 17,
+        result: "Без вагань купуйте качку"
+    },
+    {
+        id: 18,
+        result: "Без вагань купуйте індика"
+    },
+    {
+        id: 19,
+        question: "Потримати в руках?",
+        options: [
+            {
+                userPick: "Так",
+                moveTo: 20
+            },
+            {
+                userPick: "Ні",
+                moveTo: 19
+            }
+        ]
+    },
+    {
+        id: 20,
+        result: "Без вагань купуйте гусака"
+    }
+];
+
+function answer(answer_id) {
+
+    var result = data.find(function (value) {
+        return value.id == answer_id;
+    });
+
+
+    $("#answer").empty();
+
+    document.getElementById("question").innerHTML = result.question;
+
+    for (var q = 0; q < result.options.length; q++) {
+
+        var button = document.createElement("button");
+
+        button.innerHTML = result.options[q].userPick;
+
+        (function (q) {
+            button.onclick = function () {
+                return answer(result.options[q].moveTo);
+            }
+        })(q);
+
+        document.getElementById("answer").appendChild(button);
+
+    }
+}
+
+
+</script>
+
+
+</body>
+</html>

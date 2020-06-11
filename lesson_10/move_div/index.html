@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.26)">
+
+<div id="div" style="position: absolute; width: 6em; height: 6em; background: blue;"></div>
+
+<script>
+
+    document.getElementById("div").addEventListener('click', function (e) {
+
+        var div = e.target; //ссылка на элемент
+
+        var rect = div.getBoundingClientRect(); //размер div и его позиция относительно окна
+
+        var dx = e.pageX - rect.left,
+                dy = e.pageY - rect.top;
+
+        div.style.background = 'silver';
+
+        document.addEventListener('click', function handler(e) {
+
+            div.style.left = e.pageX - dx + 'px';
+            div.style.top = e.pageY - dy + 'px';
+            div.style.background = 'blue';
+
+            document.removeEventListener('click', handler, true);
+            event.stopPropagation();
+        }, true)
+    });
+    //блабала узййцвошвтыолсирдшнпцурио
+</script>
+
+
+</body>
+</html>

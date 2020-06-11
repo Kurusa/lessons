@@ -1,0 +1,66 @@
+.main {
+    width: 100%;
+    height: 100%;
+    font-family: 'Catamaran', sans-serif;
+    background-image: url("/lesson_13/headerimg/header.jpg") ;
+    padding: 0;
+    margin: 0;
+    position: center top;
+    background-size:100% auto;
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+    height:100%;
+}
+
+.main_circle {
+    border: 8px solid #f05f40;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 50%;
+    margin-left: -225px;
+    top: 10%;
+}
+
+.inside_circle {
+    border: 4px solid rgba(227, 58, 19, 0.68);
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
+    position: relative;
+    left: 50%;
+    margin-left: -210px;
+    top: 2%;
+}
+
+.text_php {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    color: #FFFFFF;
+    top: 40%;
+}
+
+.password {
+       color: #FFFFFF;
+}
+
+.horizontal {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+
+input {
+    border-radius: 25px;
+    border: none;
+    border-bottom: solid 1px white;
+    background-color: transparent;
+    height: 30px;
+    color: white;
+}
+

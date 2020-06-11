@@ -1,0 +1,159 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.container {
+    background-color: #ffffff;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.top, .posts {
+    display: flex;
+    border-bottom: 6px #f5f4f2 solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.button {
+    border-radius: 0;
+    border: transparent;
+    background-color: rgb(202, 229, 248);
+}
+
+.comment {
+    width: 100%;
+    display: inline-flex;
+    font-size: 19px;
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 4px;
+    word-break: break-all;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#exit, #global {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+    border: none;
+}
+
+#exit:hover, #global:hover, #exit:active, #global:active {
+    background: rgb(202, 229, 248);
+    color: black;
+    text-decoration: none !important;
+}
+
+
+a {
+    color: #000000!important;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+#comment_fa {
+    position: relative;
+    top: -44px!important;
+}
+
+span {
+    font-size: 17px;
+}
+
+.name, .date {
+    padding-left: 25px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.date {
+    font-weight: 200;
+    float: right;
+}
+
+.fa-comments-o {
+    opacity: 0.8;
+    font-size: 23px;
+}
+
+.for_c {
+    margin-top: -35px;
+    margin-bottom: 25px;
+    padding: 22px;
+    border-bottom: 2px #f5f4f2 solid;
+    border-radius: 0;
+}
+
+.form_add_c {
+    display: inline-flex;
+}
+
+.text_c {
+    display: inline-grid;
+}
+
+.submit_c {
+    font-size: 19px;
+    color: black;
+    border-radius: 0;
+    border: transparent;
+    background-color: rgb(202, 229, 248);
+    margin-right: 85px;
+}
+
+.write_c {
+    max-width: 190px;
+    min-width: 190px;
+    min-height: 39px;
+    font-size: 17px;
+}
+
+
+.name_date {
+    background-color: #f6f8fa;
+    border: 1px #d1d5da solid;
+    color: #586069;
+    padding: 7px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px!important;
+}
+
+
+.text {
+    border: 1px #d1d5da solid;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.comments {
+    font-size: 15px;
+}
