@@ -1,1 +1,1 @@
-# My first tries of programming.
+# My first tries in programming
