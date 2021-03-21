@@ -48,22 +48,3 @@ $count_of_parts = some_mega_useful_function($saturn, $uran, 100500);
 3. Перевірити, чи поточний час є більший на години від часу, записаного у файлі
 4. Якщо більший, то змінити час у файлі на поточний
 5. Якщо менший, куркур заборонено
-
-
-
-
-
-
-
-
-
-
-     function noRange($from, $to) {
-        for ($i = $from; $i <= $to; $i++) {
-            yield $i;
-        }
-}
-
-foreach (noRange(1, 10) as $number) {
-    echo $number;
-}
